@@ -6,19 +6,19 @@
 * [/app-extension](app-extension) - Quasar app extension
 
 # Compile
-.../{root}> cd ui
+* .../{root}> cd ui
 .../{root}/ui> yarn build
 
 # Run
-.../{root}> cd ui/dev
-.../{root}/ui/dev> quasar dev 
+* .../{root}> cd ui/dev
+* .../{root}/ui/dev> quasar dev 
 
 # Publish
-.../{root}> cd ui
-.../{root}/ui> yarn publish
+* .../{root}> cd ui
+* .../{root}/ui> yarn publish
 
 # Install
-.../{proj-root}> npm install @interopshop/quasar-ui-client-controls@x.x.x
+* .../{proj-root}> npm install @interopshop/quasar-ui-client-controls@x.x.x
 
 # Donate
 If you appreciate the work that went into this project, please consider [donating to Quasar](https://donate.quasar.dev).
