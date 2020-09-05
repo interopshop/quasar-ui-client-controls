@@ -1,6 +1,6 @@
 {
-  "name": "quasar-ui-client-controls",
-  "version": "0.0.2",
+  "name": "@interopshop/quasar-ui-client-controls",
+  "version": "0.0.3",
   "author": "justinlplourde <jplou001@outlook.com>",
   "description": "My awesome component",
   "license": "MIT",
@@ -20,6 +20,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/interopshop/quasar-ui-client-controls"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "bugs": "https://github.com/interopshop/quasar-ui-client-controls/issues",
   "homepage": "https://interopshop.com",
