@@ -6,6 +6,5 @@
     "paths": {
       "ui/*": ["src/*"]
     }
-  },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  }
 }
