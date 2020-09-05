@@ -1,0 +1,10 @@
+/*!
+ * quasar-ui-client-controls v0.0.1
+ * (c) 2020 justinlplourde <jplou001@outlook.com>
+ * Released under the MIT License.
+ */
+.ClientControls {
+  font-weight: bold; }
+
+.my-directive {
+  font-size: 14px; }
