@@ -7,6 +7,7 @@
 
 # Compile
 * .../{root}> cd ui
+* .../{root}/ui> yarn
 * .../{root}/ui> yarn build
 
 # Run
