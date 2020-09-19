@@ -1,7 +1,9 @@
 <template>
   <q-page padding>
-    <q-badge label="Not Yours"></q-badge>
-    <InteropQBadge label="Test" />
+
+    <q-badge label="q-badge"></q-badge>
+    <hr />
+    <InteropQBadge label="Interop-QBadge" />
   </q-page>
 </template>
 <script>

@@ -1,7 +1,8 @@
 <template>
   <q-page padding>
-    <q-btn label="Not Yours"></q-btn>
-    <InteropQBtn label="Test" />
+    <q-btn label="q-btn"></q-btn>
+    <hr />
+    <InteropQBtn label="Interop-QBtn" />
   </q-page>
 </template>
 <script>

@@ -1,6 +1,6 @@
 {
   "name": "@interopshop/quasar-ui-client-controls",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "justinlplourde <jplou001@outlook.com>",
   "description": "My awesome component",
   "license": "MIT",
@@ -51,5 +51,9 @@
   },
   "browserslist": [
     "last 1 version, not dead, ie >= 11"
-  ]
+  ],
+  "dependencies": {
+    "quasar-ui-client-controls": "0.0.2",
+    "vue": "3.0.0-rc.9"
+  }
 }

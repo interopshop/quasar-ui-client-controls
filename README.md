@@ -10,15 +10,15 @@
 * .../{root}/ui> yarn build
 
 # Run
-* .../{root}> cd ui/dev
+* .../{root}/ui> cd dev
 * .../{root}/ui/dev> quasar dev 
 
 # Publish
-* .../{root}> cd ui
+* .../{root}/ui/dev> cd ../
 * .../{root}/ui> yarn publish
 
 # Install
-* .../{proj-root}> npm install @interopshop/quasar-ui-client-controls@x.x.x
+* .../{proj}/{root}> npm install @interopshop/quasar-ui-client-controls
 
 # Donate
 If you appreciate the work that went into this project, please consider [donating to Quasar](https://donate.quasar.dev).
