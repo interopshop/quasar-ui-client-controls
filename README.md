@@ -14,20 +14,22 @@
 * .../{root}/ui> cd dev
 * .../{root}/ui/dev> quasar dev 
 
+# NPM-SignIn
+* .../{proj}/{root}> npm login --registry=https://npm.pkg.github.com --scope=@my-org
+* (n): fullname
+* (p): gh_token
+* (e): 001
+
 # Publish
 * .../{root}/ui/dev> cd ../
-* .../{root}/ui> npm login --registry=https://npm.pkg.github.com --scope=@interopshop
-* (name): fullname
-* (pass): gh_token
-* (email): 001
 * .../{root}/ui> yarn publish
 
 # Install
-* .../{proj}/{root}> npm login --registry=https://npm.pkg.github.com --scope=@interopshop
-* .../{proj}/{root}> npm install @interopshop/quasar-ui-client-controls@latest
+* .../{proj}/{root}> npm login --registry=https://npm.pkg.github.com --scope=@my-org
+* .../{proj}/{root}> yarn add @my-org/quasar-ui-client-controls@latest
 
 # Donate
 If you appreciate the work that went into this project, please consider [donating to Quasar](https://donate.quasar.dev).
 
 # License
-MIT (c) justinlplourde <jplou001@outlook.com>
+MIT (c)
