@@ -16,7 +16,7 @@
     "core-js": "^3.0.0"
   },
   "devDependencies": {
-    "@quasar/app": "^2.0.0",
+    "@quasar/app": "^2.1.0",
     "defer-to-connect": "^2.0.0"
   },
   "browserslist": [

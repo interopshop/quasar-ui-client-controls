@@ -16,10 +16,15 @@
 
 # Publish
 * .../{root}/ui/dev> cd ../
+* .../{root}/ui> npm login --registry=https://npm.pkg.github.com --scope=@interopshop
+* (name): fullname
+* (pass): gh_token
+* (email): 001
 * .../{root}/ui> yarn publish
 
 # Install
-* .../{proj}/{root}> npm install @interopshop/quasar-ui-client-controls
+* .../{proj}/{root}> npm login --registry=https://npm.pkg.github.com --scope=@interopshop
+* .../{proj}/{root}> npm install @interopshop/quasar-ui-client-controls@latest
 
 # Donate
 If you appreciate the work that went into this project, please consider [donating to Quasar](https://donate.quasar.dev).

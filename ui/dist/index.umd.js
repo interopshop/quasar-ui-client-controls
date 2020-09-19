@@ -1,5 +1,5 @@
 /*!
- * @interopshop/quasar-ui-client-controls v0.0.4
+ * @interopshop/quasar-ui-client-controls v0.0.5
  * (c) 2020 justinlplourde <jplou001@outlook.com>
  * Released under the MIT License.
  */
@@ -12,7 +12,7 @@
 
   Vue = Vue && Object.prototype.hasOwnProperty.call(Vue, 'default') ? Vue['default'] : Vue;
 
-  var version = "0.0.4";
+  var version = "0.0.5";
 
   //
   var script = {
